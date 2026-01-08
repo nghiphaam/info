@@ -11,6 +11,7 @@
     --github-color: #ffffff;
     --discord-color: #5865F2;
     --email-color: #EA4335;
+    --soundcloud-color: #ff5500;
 }
 
 * {
@@ -171,6 +172,10 @@ body {
 
 .link-card.email:hover .icon-wrapper {
     color: var(--email-color);
+}
+
+.link-card.soundcloud:hover .icon-wrapper {
+    color: var(--soundcloud-color);
 }
 
 /* Footer */
